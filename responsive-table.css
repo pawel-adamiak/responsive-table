@@ -1,0 +1,22 @@
+@media (max-width: 600px) {
+
+    table.responsive .rt-head {
+        display: none;
+    }
+
+    table.responsive th, table.responsive td {
+        display: block;
+    }
+
+    table.responsive [data-label]::before {
+        display: block;
+        content: attr(data-label);
+        font-weight: bolder;
+        font-size: smaller;
+    }
+
+    table.responsive tr {
+        display: block;
+        padding: 10px;        
+    }
+}
